@@ -1,0 +1,19 @@
+ Ethics in AI for Personalized Medicine
+The integration of AI in personalized medicine—particularly using datasets like the Cancer Genomic Atlas (TCGA)—has the potential to revolutionize healthcare by tailoring treatments to individual genetic and clinical profiles. However, ethical challenges, especially bias and fairness, must be addressed to avoid worsening existing health disparities.
+
+A major concern is the underrepresentation of certain ethnic groups in genomic datasets. For instance, TCGA has historically contained a majority of data from patients of European descent, with significantly fewer samples from African, Hispanic, and Indigenous populations. If AI models are trained on these imbalanced datasets, the resulting treatment recommendations may be less accurate or even harmful for underrepresented groups. For example, a drug deemed effective by the AI might work well for one population but not another due to genetic differences that weren’t properly learned or represented during training.
+
+This bias could lead to misdiagnosis, inequitable care, and a loss of trust in AI-driven healthcare tools.
+
+ Fairness Strategies
+To mitigate these risks, the following strategies should be adopted:
+
+Diversify the training data by actively collecting and incorporating genomic and clinical data from a broad range of ethnic, gender, and socioeconomic groups.
+
+Use fairness-aware algorithms (e.g., reweighting, adversarial debiasing) to detect and reduce disparities in model performance across subgroups.
+
+Apply post-training audits using tools like IBM AI Fairness 360 or Fairlearn to evaluate model bias and retrain when necessary.
+
+Ensure transparency and interpretability in AI predictions so clinicians can question and understand the reasoning behind treatment suggestions.
+
+By prioritizing inclusiveness and fairness, AI can serve all populations effectively and ethically in personalized medicine.
